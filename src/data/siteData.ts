@@ -9,7 +9,7 @@ export const hero = {
     ctaSecondary: "Download Resume",
     image: "/profile.png",
     location: "Chennai, India",
-    resumeUrl: "https://1drv.ms/b/c/95b2e6cad4292c9b/IQAphPia1nj8Ro_Y4oPbynbQARqPjIu-bNVBOCthppNmbl4?e=7HZmup",
+    resumeUrl: "https://1drv.ms/b/c/95b2e6cad4292c9b/IQDy0Y9skvIBR6TvnTs1bBKsAZeP0Q7dZ9F_nIkxEJ4FRrg?e=XGr2JD",
     social: {
         email: "k.hariharan.0520@gmail.com",
         linkedin: "https://www.linkedin.com/in/hari--haran/"
