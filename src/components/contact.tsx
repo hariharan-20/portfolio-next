@@ -20,7 +20,7 @@ export function Contact() {
                     Let's connect !
                 </h2>
                 <p className="mb-12 text-lg text-gray-600 dark:text-gray-300">
-                    New projects, freelance enquiry, or even a coffee? I&apos;ll try my best to get back to you!
+                    New projects, freelance enquiry, or even a coffee?
                 </p>
 
                 {state.success ? (
