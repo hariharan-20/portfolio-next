@@ -9,7 +9,7 @@ export const hero = {
     ctaSecondary: "Download Resume",
     image: "/profile.png",
     location: "Chennai, India",
-    resumeUrl: "https://1drv.ms/b/c/95b2e6cad4292c9b/IQCxfyz9FEulQoclJGKG9qP5AV6gB-okkeSXEHlp88q0SHk?download=1", // Replace with your actual OneDrive link
+    resumeUrl: "https://1drv.ms/b/c/95b2e6cad4292c9b/IQAphPia1nj8Ro_Y4oPbynbQARqPjIu-bNVBOCthppNmbl4?e=7HZmup",
     social: {
         email: "k.hariharan.0520@gmail.com",
         linkedin: "https://www.linkedin.com/in/hari--haran/"
