@@ -17,10 +17,10 @@ export function Contact() {
         <section id="contact" className="py-20 px-6 md:px-12 lg:px-20 bg-gray-50 dark:bg-gray-900/50">
             <div className="max-w-4xl mx-auto text-center">
                 <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white">
-                    Get In Touch
+                    Let's connect !
                 </h2>
                 <p className="mb-12 text-lg text-gray-600 dark:text-gray-300">
-                    I&apos;m currently open to new opportunities. Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
+                    New projects, freelance enquiry, or even a coffee? I&apos;ll try my best to get back to you!
                 </p>
 
                 {state.success ? (

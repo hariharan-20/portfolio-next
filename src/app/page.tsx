@@ -26,9 +26,9 @@ export default function Home() {
 
       <TechMarquee />
 
-      <ScrollReveal width="100%">
+      {/* <ScrollReveal width="100%">
         <Skills />
-      </ScrollReveal>
+      </ScrollReveal> */}
 
       <ScrollReveal width="100%">
         <Contact />
