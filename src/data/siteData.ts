@@ -2,7 +2,7 @@
 
 export const hero = {
     name: "Hariharan",
-    role: "Front-End Engineer",
+    role: "Senior Engineer",
     subtitle:
         "I build high-performance, scalable Front-end applications for e-commerce, SaaS, and enterprise platforms.",
     ctaPrimary: "View My Work",
@@ -35,12 +35,13 @@ export const skills = {
             name: "Frontend",
             items: [
                 "React.js",
+                "Next.js",
                 "Angular",
-                "JavaScript (ES6+)",
+                "JavaScript",
                 "TypeScript",
-                "HTML5",
-                "CSS3",
-                "Tailwind CSS",
+                "HTML",
+                "CSS",
+                "Tailwind",
                 "Less",
                 "Sass"
             ]
