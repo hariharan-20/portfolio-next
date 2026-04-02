@@ -9,7 +9,7 @@ export const hero = {
     ctaSecondary: "Download Resume",
     image: "/profile.png",
     location: "Chennai, India",
-    resumeUrl: "https://1drv.ms/b/c/95b2e6cad4292c9b/IQDy0Y9skvIBR6TvnTs1bBKsAZeP0Q7dZ9F_nIkxEJ4FRrg?e=XGr2JD",
+    resumeUrl: "https://1drv.ms/b/c/95b2e6cad4292c9b/IQBwdUQ9z45eT6l7exQYHm6HAYZCbQMSnUz9Kyq9iZuNAj0?e=e3R4Re",
     social: {
         email: "k.hariharan.0520@gmail.com",
         linkedin: "https://www.linkedin.com/in/hari--haran/"
@@ -121,10 +121,29 @@ export const projects = {
     title: "Projects",
     items: [
         {
+            name: "Sync Text Editor",
+            role: "Full-Stack Developer",
+            description:
+                "A real-time collaborative text editor built with Y.js, Hocuspocus, and Supabase—designed to feel instant, reliable, and seamless like a mini Google Docs.",
+            features: [
+                "Real-time collaboration powered by Y.js CRDTs",
+                "Persistent storage with Supabase",
+                "Multi-device editing support",
+                "Automatic conflict resolution"
+            ],
+            caseStudy: {
+                problem: "Building a collaborative editor requires handling complex real-time synchronization, conflict resolution, and persistence across multiple users and devices without data loss.",
+                solution: "Implemented Y.js CRDT algorithms for conflict-free collaborative editing, set up a custom Hocuspocus WebSocket server for real-time syncing, and integrated Supabase for persistent document storage.",
+                impact: "Created a fast, lightweight collaborative editing experience with zero conflicts, instant multi-device sync, and reliable persistence—exploring the same foundation used by Notion, Google Docs, and Figma.",
+                stack: ["Next.js", "TypeScript", "Y.js", "Hocuspocus", "Node.js", "Supabase"]
+            },
+            liveUrl: "/share-text"
+        },
+        {
             name: "Samsung E-commerce Shopping Cart",
             role: "Frontend Engineer",
             description:
-                "Engineered a responsive, high-performance cart & checkout workflow for Samsung’s global e-commerce ecosystem.",
+                "Engineered a responsive, high-performance cart & checkout workflow for Samsung's global e-commerce ecosystem.",
             features: [
                 "Optimized rendering and state management",
                 "Reduced checkout drop-offs",

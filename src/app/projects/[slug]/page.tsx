@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { ArrowLeft, ExternalLink, Calendar } from "lucide-react"
+import { ArrowLeft } from "lucide-react"
 import { projects } from "@/data/siteData"
 
 export async function generateStaticParams() {

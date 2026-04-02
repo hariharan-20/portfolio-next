@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation"
 import { useTheme } from "next-themes"
 import { AnimatePresence, motion } from "framer-motion"
 import {
-    Command,
     Search,
     FileText,
     Moon,

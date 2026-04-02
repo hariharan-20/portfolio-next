@@ -29,7 +29,7 @@ export function Projects() {
                                         {project.name}
                                     </h3>
                                     <Link
-                                        href={`/projects/${project.name.toLowerCase().replace(/\s+/g, "-")}`}
+                                        href={(project as any).liveUrl || `/projects/${project.name.toLowerCase().replace(/\s+/g, "-")}`}
                                         className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 bg-gray-50 text-gray-500 transition-colors hover:bg-purple-100 hover:text-purple-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-purple-900/30 dark:hover:text-purple-400"
                                     >
                                         <ArrowUpRight className="h-5 w-5" />
