@@ -9,7 +9,7 @@ export const hero = {
     ctaSecondary: "Download Resume",
     image: "/profile.png",
     location: "Chennai, India",
-    resumeUrl: "https://1drv.ms/b/c/95b2e6cad4292c9b/IQAACCxBz-g2QomGL46XX3NzAbvlgdfS0kbneRw1omSJwl4?e=VUkrSU",
+    resumeUrl: "https://onedrive.live.com/?id=95B2E6CAD4292C9B%21se967be05b7f34702ba5c2074fc80b458&cid=95B2E6CAD4292C9B&parId=95B2E6CAD4292C9B%2112006&o=OneUp&ls=true",
     social: {
         email: "k.hariharan.0520@gmail.com",
         linkedin: "https://www.linkedin.com/in/hari--haran/"
@@ -19,9 +19,9 @@ export const hero = {
 export const about = {
     title: "About Me",
     description:
-        "Front-end engineer with 4+ years of experience building fast, scalable React applications. I specialize in component-driven architecture, performance tuning, API integrations, and designing intuitive user experiences. I love solving complex UI problems and turning product ideas into polished interfaces.",
+        "Front-end engineer with 5+ years of experience building fast, scalable React applications. I specialize in component-driven architecture, performance tuning, API integrations, and designing intuitive user experiences. I love solving complex UI problems and turning product ideas into polished interfaces.",
     highlights: [
-        "4+ years experience in React.js, JavaScript, TypeScript",
+        "5+ years experience in React.js, JavaScript, TypeScript",
         "Performance optimization for enterprise and e-commerce",
         "Strong focus on reusable UI component systems",
         "Experienced with GraphQL, REST, and modern tooling"
@@ -81,14 +81,16 @@ export const experience = {
         {
             company: "Altimetrik India Pvt Ltd",
             client: "Samsung E-commerce Platform",
-            role: "Senior Engineer – React.js",
+            role: "Senior Engineer",
             period: "Jan 2025 – Present",
             description:
                 "Leading development of Samsung’s cart & checkout experiences, delivering global-scale performance and seamless UX.",
             highlights: [
-                "Built responsive cart and checkout flows with optimized rendering.",
+                "Led a SPOKE-in team of 4 engineers responsible for delivering India-specific e-commerce enhancements.",
+                "Owned end-to-end feature delivery using Agile Scrum methodologies, managing work items through JIRA.",
                 "Implemented promotion banners & Trade-In pop-ups improving engagement by 18–25%.",
-                "Improved checkout success rates by 15% through critical UI fixes."
+                "Improved checkout success rates by 15% through critical UI fixes.",
+                "Built responsive and high-performance frontend features for checkout flows."
             ]
         },
         {
@@ -99,9 +101,9 @@ export const experience = {
                 "Developed scalable UI components and performance-optimized modules for enterprise analytics products.",
             highlights: [
                 "Created reusable React component libraries improving maintainability by 60%.",
-                "Reduced page load time by 30% via bundle optimization & caching.",
+                "Assisted in backend API development and debugging, gaining exposure to server-side logic and data handling.",
                 "Integrated GraphQL APIs for fast and scalable data loads.",
-                "Cut bug resolution time by 40% using advanced debugging tools."
+                "Implemented browser-based debugging tools, cutting bug resolution time by 40%."
             ]
         },
         {
